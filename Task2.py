@@ -12,12 +12,11 @@ def rotate_matrix(matrix, degrees):
     else:
         return(matrix)
 
-
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ]
-result=rotate_matrix(matrix,180)
+result=rotate_matrix(matrix,90)
 print(result)
   
